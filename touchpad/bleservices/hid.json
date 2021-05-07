@@ -1,0 +1,60 @@
+{
+	"service": {
+		"uuid": "1812",
+		"characteristics": {
+			"info": {
+				"uuid": "2A4A",
+				"maxBytes": 4,
+				"type": "Array",
+				"permissions": "readEncrypted,writeEncrypted",
+				"properties": "read",
+				"value": [17,1,0,1]
+			},
+			"report_map": {
+				"uuid": "2A4B",
+				"maxBytes": 111,
+				"type": "Array",
+				"permissions": "readEncrypted,writeEncrypted",
+				"properties": "read",
+				"value": [5,1,9,2,161,1, 9, 1, 161, 0, 5, 9, 25, 1, 41, 3, 21, 0, 37, 1, 149, 3, 117, 1, 129, 2, 149, 1, 117, 5, 129, 3, 5, 1, 9, 48, 9, 49, 21, 129, 37, 127, 117, 8, 149, 2, 129, 6, 192, 192]
+			}, 
+			"control_point": {
+				"uuid": "2A4C",
+				"maxBytes": 1,
+				"type": "Uint8",
+				"permissions": "readEncrypted,writeEncrypted",
+				"properties": "writeNoResponse"
+			},
+			"protocol_mode": {
+				"uuid": "2A4E",
+				"maxBytes": 1,
+				"type": "Uint8",
+				"permissions": "readEncrypted,writeEncrypted",
+				"properties": "read,writeNoResponse",
+				"value": 1
+			},
+			"mouse_input_report": {
+				"uuid": "2A4D",
+				"maxBytes": 3,
+				"type": "Array",
+				"permissions": "read,write",
+				"properties": "read,notify",
+				"descriptors": {
+					"report_reference": {
+						"uuid": "2908",
+						"maxBytes": 2,
+						"type": "Array",
+						"permissions": "readEncrypted",
+						"properties": "read,write",
+						"value": [
+							0,
+							1
+						]
+					}
+				}
+			}
+		}
+	}
+}
+		
+		

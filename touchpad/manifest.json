@@ -1,0 +1,22 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/modules/network/ble/manifest_server.json",
+		"$(MODDABLE)/examples/manifest_piu.json"
+	],
+	"creation": {
+		"static": 46768,
+		"stack": 360
+	},
+	"modules": {
+		"*": [
+			"./main",
+			"./mouseService"
+		]
+	},
+	"ble":{
+		"*": [
+			"./bleservices/*"
+		]
+	}
+}
